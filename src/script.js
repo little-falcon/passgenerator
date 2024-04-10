@@ -20,7 +20,7 @@ const passwordbox = document.getElementById("Password");
 			 }
 			 function copyPassword(){
 			 	passwordbox.select();
-			 	document.execommand("copy");
+			 	document.execCommand("copy");
 			 }
 
 
