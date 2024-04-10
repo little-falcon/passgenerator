@@ -8,7 +8,7 @@ const passwordbox = document.getElementById("Password");
 			 function createPassword() 
 			 {
 			 	let password= "";
-			 	password += upperCase[Math.floor(Math.random()*upperCase.length)];\
+			 	password += upperCase[Math.floor(Math.random()*upperCase.length)];
 			 	password += lowerCase[Math.floor(Math.random()*lowerCase.length)];
 			 	password += number[Math.floor(Math.random() *number.length)];
 			 	password += symbol[Math.floor(Math.random() *symbol.length)];
@@ -20,7 +20,7 @@ const passwordbox = document.getElementById("Password");
 			 }
 			 function copyPassword(){
 			 	passwordbox.select();
-			 	document.exeCommand("copy");
+			 	document.execommand("copy");
 			 }
 
 
